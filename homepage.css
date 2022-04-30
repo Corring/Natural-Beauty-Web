@@ -1,0 +1,108 @@
+body {
+    overflow-x: hidden;
+}
+#container{
+    background-image: url("./img/titlePageBack.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    
+}
+#titleRow{
+    color: aliceblue;
+    height: 80%;
+}
+
+#title1{
+    animation: 1s ease-out 0.2s 1 slideInFromLeft forwards;
+    top: 65%;
+    left: 10%;
+    width: 36%;
+    position: relative;
+    font-weight: 400;
+    font-size: 6rem;
+    line-height: 1.1;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Lora, serif;
+    opacity: 0;
+}
+
+#title3{
+    animation: 1s ease-out 0s 1 slideInFromLeft forwards;
+    top: 65%;
+    left: 10%;
+    width: 40%;
+    position: relative;
+    font-family: Lora, serif;
+    font-size: 100%;
+    opacity: 0;
+}
+
+@keyframes slideInFromLeft{
+    0% {
+      transform: translateY(-20%);
+      opacity: 0;
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+  }
+
+#down{
+    margin-top: 15%;
+}
+
+#downImg{
+    animation: 1s ease-out 2s 1 slideInFromLeft forwards;
+    width: 5%;
+    height: 20%;
+    left: 50px;
+    opacity: 0;
+}
+
+@keyframes floating{
+    0% {
+      transform: translateY(-20%);
+    }
+    100% {
+        transform: translateY(20%);
+    }
+  }
+
+@media (max-width: 576px){
+    #title1{
+        animation: 1.5s ease-in 0s 1 slideInFromLeft forwards;
+        top: 50%;
+        left: 10%;
+        width: 36%;
+        position: relative;
+        font-weight: 300;
+        font-size: 4rem;
+        line-height: 1.1;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-family: Lora, serif;
+    }
+    
+    
+    #title3{
+        animation: 1s ease-out 0s 1 slideInFromLeft forwards;
+        top: 50%;
+        left: 10%;
+        width: 80%;
+        position: relative;
+        font-family: Lora, serif;
+        font-size: 100%;
+    }   
+
+    #down {
+        display: none;
+    }
+}
