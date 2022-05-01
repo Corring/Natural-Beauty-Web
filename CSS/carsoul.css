@@ -249,8 +249,8 @@
   }
 
 .quotes-carousel-container {
-    padding-top: 10%;
-    height: 90vh;
+    padding-top: 2%;
+    height: 80vh;
     margin: 0 auto;
     position: relative;
     width: 30em;
@@ -260,6 +260,14 @@
     height: 22em;
     position: relative;
     width: 100%;
+  }
+
+  #carousel-title-keyfeature{
+    position: relative;
+    text-align: center;
+    font-family: Lora, serif;
+    font-size: 5rem;
+    padding-top: 2%;
   }
 
   .quote-text{
