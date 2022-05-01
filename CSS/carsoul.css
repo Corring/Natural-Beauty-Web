@@ -261,7 +261,12 @@
     position: relative;
     width: 100%;
   }
-  
+
+  .quote-text{
+    position: relative;
+    text-align: center;
+  }
+
   .quote {
     cursor: pointer;
       left: 50%;
