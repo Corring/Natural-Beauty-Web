@@ -1,0 +1,113 @@
+#missionContainer{
+    position: relative;
+    height: 48vh;
+    background: #fff;
+    color: #111111;
+    background-color: #f2f2f2;
+    font-size: 3em;
+}
+
+#aboutUs {
+    animation: 1s ease-out 0.2s 1 slideInFromLeft forwards;
+    padding-top: 3%;
+    width: 100%;
+    position: relative;
+    font-weight: 700;
+    font-size: 6rem;
+    line-height: 1.2;
+    margin-bottom: 15px;
+    font-family: Roboto,sans-serif;
+    opacity: 0;
+    text-align: center;
+    display: block;
+    letter-spacing: 10px;
+
+}
+
+#about {
+    animation: 1s ease-out 0s 1 slideInFromLeft forwards;
+    font-size: 2rem;
+    width: 702px;
+    margin: 0 auto 0;
+    text-align: center;
+    color: #808080
+}
+
+#readMoreDiv{
+    margin-top: 3%;
+    text-align: center;
+}
+
+#readMore {
+    color: #ffffff !important;
+    background-color: #86aa97 !important;
+    font-weight: 300;
+    font-size: 2rem;
+    text-transform: uppercase;
+    background-image: none;
+    border-style: none;
+    letter-spacing: 2px;
+    margin: 40px auto 60px;
+    padding: 15px 40px 15px 40px;
+    border-color: transparent !important;
+    text-decoration: none;
+    border-width: 0 !important;
+    position: relative;    
+    box-sizing: border-box;
+    border-radius: 50px !important;
+    opacity: 0.8;   
+}
+
+@media (max-width: 576px){
+    #aboutUs {
+        animation: 1s ease-out 0.2s 1 slideInFromLeft forwards;
+        width: 100%;
+        position: relative;
+        font-weight: 700;
+        font-size: 3rem;
+        line-height: 1.2;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-family: Roboto,sans-serif;
+        opacity: 0;
+        text-align: center;
+        display: block;
+        letter-spacing: 2px;
+    
+    }
+    
+    #about {
+        animation: 1s ease-out 0s 1 slideInFromLeft forwards;
+        font-size: 1.75rem;
+        width: 90%;
+        margin: 0 auto 0;
+        text-align: center;
+    }
+    
+    #readMoreDiv{
+        margin-top: 7%;
+        text-align: center;
+    }
+    
+    #readMore {
+        color: #ffffff !important;
+        background-color: #86aa97 !important;
+        font-weight: 300;
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        background-image: none;
+        border-style: none;
+        letter-spacing: 2px;
+        margin: 10px auto 10px;
+        padding: 10px 40px 10px 40px;
+        border-color: transparent !important;
+        text-decoration: none;
+        border-width: 0 !important;
+        position: relative;    
+        box-sizing: border-box;
+        border-radius: 50px !important;
+        opacity: 0.8;   
+    }
+    
+
+}

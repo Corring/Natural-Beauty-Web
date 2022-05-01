@@ -3,7 +3,7 @@ body {
 }
 
 #container{
-    background-image: url("../img/titlePageBack.png");
+    background-image: url("../img/background.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -21,7 +21,7 @@ body {
 
 #title1{
     animation: 1s ease-out 0.2s 1 slideInFromLeft forwards;
-    top: 65%;
+    top: 50%;
     left: 8%;
     width: 100%;
     position: relative;
@@ -32,17 +32,19 @@ body {
     margin-bottom: 20px;
     font-family: Lora, serif;
     opacity: 0;
+    letter-spacing: 2px;
 }
 
 #title3{
     animation: 1s ease-out 0s 1 slideInFromLeft forwards;
-    top: 65%;
+    top: 50%;
     left: 8%;
     width: 40%;
     position: relative;
     font-family: Lora, serif;
-    font-size: 2rem;
+    font-size: 2.15rem;
     opacity: 0;
+    letter-spacing: 0.2px;
 }
 
 @keyframes slideInFromLeft{
@@ -57,25 +59,27 @@ body {
   }
 
 #down{
-    margin-top: 15%;
+    margin-top: 13%;
 }
 
 #downImg{
-    animation: 1s ease-out 2s 1 slideInFromLeft forwards;
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
     width: 5%;
     height: 20%;
     left: 50px;
     opacity: 0;
+    margin-bottom: 10vh;
 }
 
-@keyframes floating{
-    0% {
-      transform: translateY(-20%);
-    }
-    100% {
-        transform: translateY(20%);
-    }
-  }
+@keyframes floating {
+    0% { transform: translate(0,  0px); opacity: 0.4;}
+    50%  { transform: translate(0, 15px); opacity: 0.6;}
+    100%   { transform: translate(0, -0px); opacity: 0.4;}   
+}
 
 @media (max-width: 576px){
     #title1{
