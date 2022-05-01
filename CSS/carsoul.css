@@ -234,9 +234,9 @@
   body {
     background: #fff;
     background-image: -webkit-linear-gradient(top, rgba(255,255,255,1) 10%, rgba(255,255,255,0.6) 50%, rgba(255,255,255,0.6) 60%, rgba(255,255,255,1) 100%),
-                      -webkit-linear-gradient(293deg, #FFD17C 20%, #E77FE9 96%);
+                      -webkit-linear-gradient(293deg, #FFD17C 20%, #e5c4e6 96%);
     background-image: linear-gradient(180deg, rgba(255,255,255,1) 10%, rgba(255,255,255,0.6) 50%, rgba(255,255,255,0.6) 60%, rgba(255,255,255,1) 100%),
-                      linear-gradient(157deg, #FFD17C 20%, #E77FE9 96%);
+                      linear-gradient(157deg, #f3c267 20%, #f1d2f1 96%);
     background-size: 100% 100%;
     font-size: 3em;
     line-height: 1.5;
