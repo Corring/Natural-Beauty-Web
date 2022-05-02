@@ -1,0 +1,245 @@
+#harmToFaceContainer{
+    position: relative;
+    margin-top: 250px;
+    padding-left: 70px;
+    height: 90vh;
+}
+
+#emptyBox2 {
+    position: absolute;
+    height: 506px;
+    width: 544px;
+    margin: 230px auto 0 0;
+    background-color: #005369;
+    opacity: 0.6;
+    z-index: 0;
+}
+
+#dots{
+    position: absolute;
+    width: calc(544px - 100px);
+    margin-top: 580px;
+    margin-left: calc(144px / 2);
+    z-index: 2;
+}
+
+#faceRow {
+    width: 60vw;
+    margin-left: calc((100% - 80%)/2 + 140px);
+    padding-top: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+#beautyFace{
+    position: relative;
+    background-image: url("../img/face.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 30% 60%;
+    width: 355px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    opacity: 0.98;
+}
+
+#beautyHarmfulBox{
+    position: relative;
+    margin-top: 50%;
+    border-color: #005369;
+    border-left-width: 5px;
+    border-top-width: 0 ;
+    border-right-width: 0 ;
+    border-bottom-width: 0 ;
+    border-style: solid;
+    font-family: Raleway,sans-serif;
+    width: 80%;
+    padding-left: 15px;
+}
+
+#faceTitle{
+    text-align: right;
+    margin-right: 30px;
+    padding-top: 15px;
+    color:  #86a2aa;
+    font-weight: 500px;
+    font-size: 2.85rem;
+}
+
+#faceDesc{
+    word-wrap: break-word;
+    font-size: 2rem;
+    color:  #86a2aa;;
+}
+
+#moreover{
+    position: relative;
+    text-align: center;
+    margin-top: 533px; 
+ 
+}
+
+#more{
+    font-size: 10rem;
+    font-weight: 500px;
+}
+
+@media (max-width: 1465px) and (min-width: 1096px) {
+    #moreover{
+        position: relative;
+        text-align: center;
+        margin-top: 1233px; 
+    }
+}
+
+@media (max-width: 1096px) and (min-width: 581px){
+    #emptyBox2 {
+        margin-left: -5%;
+        position: absolute;
+        height: calc(506px * 2 / 3);
+        width: calc(544px *2 / 3);
+        margin-left: calc((100% - (544px *2 / 3) + (355px *2 / 3))) / 2;
+        background-color: #005369;
+        opacity: 0.6;
+        z-index: 0;
+    }
+    
+    #moreover{
+        position: relative;
+        text-align: center;
+        margin-top: 1033px; 
+    }
+    #beautyFace{
+        position: absolute;
+        background-image: url("../img/face.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 30% 60%;
+        width: calc(355px *2 / 3);
+        padding-top: 300px;
+        padding-bottom: 300px;
+        opacity: 0.98;
+        min-width: 300px;
+        max-height: 700px;
+    }
+
+    #dots{
+        position: absolute;
+        width: calc(444px * 2 / 3);
+        margin-top: 450px;
+        margin-left: calc(144px / 2);
+        z-index: 2;
+    }
+    
+    #faceCol{
+        position: relative;
+        margin-top: calc(600px);
+        margin-left: -50%;
+        width: 500px;
+    }
+
+    #faceTitle{
+        position: relative;
+        text-align: left;
+        margin-right: calc(150%);
+        padding-top: 20px;
+        color:  #86a2aa;
+        font-weight: 500px;
+        font-size: 2.85rem;
+        width: 500px;
+    }
+    #beautyHarmfulBox{
+        position: relative;
+        border-color: #005369;
+        border-left-width: 5px;
+        border-top-width: 0 ;
+        border-right-width: 0 ;
+        border-bottom-width: 0 ;
+        border-style: solid;
+        font-family: Raleway,sans-serif;
+        width: 500px;
+        padding-left: 2%;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 581px){
+    #emptyBox2 {
+        margin-left: -5%;
+        position: absolute;
+        height: calc(506px * 2 / 6);
+        width: calc(544px *2 / 6);
+        margin-left: calc((100% - (544px *2 / 4) + (355px *2 / 4))) / 2;
+        background-color: #005369;
+        opacity: 0.6;
+        z-index: 0;
+        opacity: 0;
+    }
+    
+    #moreover{
+        position: relative;
+        text-align: center;
+        margin-top: 1033px; 
+    }
+
+    #beautyFace{
+        position: absolute;
+        background-image: url("../img/.jpg");
+        background-repeat: no-repeat;
+        background-size: fixed;
+        background-position: 30% 60%;
+        width: 100vw;
+        height: 100px;
+        padding-top: 200px;
+        padding-bottom: 300px;
+        opacity: 0.98;
+        max-height: 700px;
+        margin-left: 20px;
+    }
+
+    #dots{
+        position: absolute;
+        width: calc(444px * 2 / 4);
+        margin-top: 450px;
+        margin-left: calc(144px / 2);
+        z-index: 2;
+        opacity: 0;
+    }
+    
+    #faceCol{
+        position: relative;
+        margin-top: 0;
+        margin-left: calc(10px - 100%);
+        width: 90vw;
+    }
+
+    #faceTitle{
+        position: relative;
+        text-align: left;
+        margin-right: calc(150%);
+        padding-top: 20px;
+        color:  #86a2aa;
+        font-weight: 500px;
+        font-size: 2.55rem;
+        width: 500px;
+    }
+
+    #beautyHarmfulBox{
+        position: relative;
+        border-color: #005369;
+        border-left-width: 5px;
+        border-top-width: 0 ;
+        border-right-width: 0 ;
+        border-bottom-width: 0 ;
+        border-style: solid;
+        font-family: Raleway,sans-serif;
+        width: 80vw;
+        padding-left: -5%;
+        margin-top: 25px;
+    }
+
+    #more{
+        font-size: 5rem;
+        font-weight: 500px;
+    }
+}

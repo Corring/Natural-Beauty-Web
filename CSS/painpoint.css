@@ -1,6 +1,6 @@
 #painpoint {
-    position: absolute;
-    height: 45vh;
+    position: relative;
+    height: 5vh;
     background: rgb(255, 255, 255);
     color: #111111;
     background-color: #ffffff;
@@ -126,7 +126,7 @@ li{
     color: #86aa97; margin-left: 5px;
 }
 
-@media (max-width: 1300px) and (min-width: 1096px){
+@media (max-width: 1465px) and (min-width: 1096px){
     #dophine {
         background-image: url("../img/dolphine.jpeg");
         background-position: 40% 70%;
@@ -139,7 +139,7 @@ li{
     }
     #blueBlock {
         height: 317px;
-        width: calc(((100% - 1140px) / 2) + 388px);
+        width: 300px;
         margin-top: -962px ; 
         margin-left: 5%;
         color: #111111;
@@ -295,7 +295,7 @@ li{
         position: absolute;
         background-clip: padding-box;
         background-origin: padding-box;
-        background-color: #005269c5;
+        background-color: #005369;
         margin-left: calc((100% - 300px) / 2 + 5%);
         width: calc(100% - (100% - 300px) / 2 - 6%);
         opacity: 0.9;
@@ -344,7 +344,7 @@ li{
         background-size: fixed;
         width: 110vw;
         margin-bottom: 10%;
-        margin-top: 8%;
+        margin-top: -15%;
         margin-left: -20%;
     }
     #blueBlock {
@@ -360,14 +360,14 @@ li{
 
     #harmWhy{
         color: #86aa97; 
-        margin-left: 13%;
+        margin-left: 3%;
         width: 100vw;
         text-align: left;
     }
 
     #reason {
         line-height: 2;
-        margin: 20px  0 0 15%;
+        margin: 20px  0 0 5%;
         padding-left: 0;
         word-wrap: break-word;
         position: relative;
