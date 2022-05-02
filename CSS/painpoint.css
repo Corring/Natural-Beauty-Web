@@ -127,6 +127,8 @@ li{
 }
 
 @media (max-width: 1465px) and (min-width: 1096px){
+
+
     #dophine {
         background-image: url("../img/dolphine.jpeg");
         background-position: 40% 70%;

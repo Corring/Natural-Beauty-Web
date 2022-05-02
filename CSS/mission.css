@@ -58,6 +58,19 @@
     opacity: 0.8;   
 }
 @media (max-width: 1096px) and (min-width: 581px) {
+    #smallWindow{
+        width: 100vw;
+        height: 20vh;
+        background-image: url("../img/coral.jpeg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: 50% 0%;
+        background-size: cover;
+        opacity: 0.8;
+        margin-top: 250px;
+        margin-bottom: 10%;
+    }
+
     #missionContainer{
         position: relative;
         height: 32vh;
